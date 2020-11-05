@@ -1,0 +1,243 @@
+#container {
+  width: 15%;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+}
+.edge_text {
+  color: #fff;
+  transform: rotate(-45deg);
+  font-size: 10px;
+  top: 15px;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-weight: 800;
+}
+.edge_text_pv {
+  color: #fff;
+  transform: rotate(-45deg);
+  font-size: 10px;
+  top: 30px;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #bb0a13;
+  border-right: 100px solid transparent;
+  font-weight: 500;
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.pop_head {
+  width: 100%;
+}
+.ie_popup {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  background: #000;
+  text-align: center;
+  border-radius: 1px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+}
+.ie_img {
+  margin-top: -30px;
+}
+.ie_sub {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #848484;
+  margin: 10px 0px;
+}
+.ie_pop_h {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 10px;
+}
+#clockdiv {
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 38px;
+  margin: 20px 0px;
+}
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #262626;
+  display: inline-block;
+}
+#clockdiv div > span {
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 48px;
+}
+.smalltext {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 14px;
+  padding-top: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+.get_started_pop {
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-family: MuseoSans-900, sans-serif;
+  font-size: 16px;
+  padding: 10px 40px;
+  transition: background 1s, color 1s;
+  background: #bb0a13;
+  cursor: pointer;
+  min-width: 420px;
+  font-weight: bold;
+}
+
+.cta_pop {
+  padding: 10px 10px;
+}
+.get_started_pop:hover {
+  background: #bb0a13;
+  text-shadow: 0 0 5px #fff;
+  color: #fff !important;
+}
+.ie_line {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+}
+.link {
+  padding: 10px 10px;
+  padding-bottom: 50px;
+}
+.ie_line:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+.closetext {
+  clear: both;
+}
+.close {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  float: right;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1.2;
+  margin-right: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.InsiderOtherCookies {
+  line-height: 1.4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  text-align: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  z-index: 1000;
+}
+#container2 img {
+  width: 100px;
+}
+@media all and (max-width: 767px) {
+  .ie_popup {
+    width: 280px;
+  }
+  #container {
+    width: 35%;
+  }
+  .ie_img {
+    margin-top: -40px;
+  }
+  #container2 img {
+    width: 80px;
+  }
+  .ie_sub {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 15px 1px;
+    font-weight: 400;
+  }
+  .ie_pop_h {
+    font-size: 17px;
+    line-height: 27px;
+    margin: 12px 2px;
+  }
+  #clockdiv {
+    margin: 20px 0px;
+  }
+  #clockdiv > div {
+    padding: 5px;
+  }
+  #clockdiv div > span {
+    padding: 5px;
+    font-size: 30px;
+  }
+  .smalltext {
+    font-size: 15px;
+    line-height: 14px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+  }
+  .cta_pop {
+    padding: 10px 10px;
+  }
+  .get_started_pop {
+    font-size: 12px;
+    padding: 10px 15px;
+    min-width: 150px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+  .ie_line {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 26px;
+  }
+}

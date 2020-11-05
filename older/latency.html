@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+​
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="Content-Type" content="text/html, charset=utf-8" />
+    ​
+    <title>Andie Latency Test</title>
+    <meta name="description" content="Andie Latency Test" />
+  </head>
+  ​
+  <body style="font-family: 'calibre', sans-serif; letter-spacing: 0.5px">
+    <script src="latency.js"></script>
+    <div
+      class="container"
+      style="display: flex; align-items: center; flex-direction: column"
+    >
+      <h3 style="text-align: center">
+        Click Each Button and Take Screenshot<br /><span
+          style="font-size: 14px; font-weight: normal"
+          >(refresh after each round)</span
+        >
+      </h3>
+      <div
+        style="
+          display: flex;
+          justify-content: space-around;
+          width: 320px;
+          margin-top: 20px;
+        "
+      >
+        <div>
+          <button
+            onclick="window.tracker('script', `https://files.ampush.io/js/tracker3.0.min.js`)"
+          >
+            Tracker
+          </button>
+          <p>ms: <span class="time"></span></p>
+        </div>
+        <div>
+          <button onclick="window.experimenterApi()">Experimenter</button>
+          <p>ms: <span class="time-exp"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,302 @@
+#container {
+  width: 15%;
+  overflow: hidden;
+  background-color: #f7bdd6;
+  position: relative;
+}
+.edge_text {
+  color: #fff;
+  transform: rotate(-45deg);
+  font-size: 10px;
+  top: 15px;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-weight: 800;
+}
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #5087ff;
+  border-right: 100px solid transparent;
+  font-weight: 500;
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+.pop_head {
+  width: 100%;
+}
+.ie_popup {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  background: #f7bdd6;
+  text-align: center;
+  border-radius: 1px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+}
+.ie_img {
+  margin-top: -45px;
+  background-image: url("https://static.insiderenvy.com/images/images/Birchbox+PNG/Asset+1+1.png");
+  width: 150px;
+  background-repeat: no-repeat;
+}
+.ie_sub {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #848484;
+  margin: 10px 0px;
+}
+.ie_pop_h {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px 0px;
+  width: 70%;
+  display: inline-block;
+}
+#clockdiv {
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 38px;
+  margin: 20px 0px;
+  margin-top: 0;
+}
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #ffd8e9;
+  display: inline-block;
+}
+#clockdiv div > span {
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 55px;
+}
+#container3 {
+  position: relative;
+}
+.smalltext {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 14px;
+  padding-top: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+.get_started_pop {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  font-family: MuseoSans-900, sans-serif;
+  font-size: 16px;
+  padding: 10px 40px;
+  transition: background 1s, color 1s;
+  background: #94305c;
+  cursor: pointer;
+  min-width: 420px;
+  font-weight: bold;
+  text-decoration: none;
+  height: 56px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.cta_pop {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 15px;
+}
+.get_started_pop:hover {
+  text-shadow: 0 0 2px #000;
+  color: #fff !important;
+  background-color: #782046;
+}
+.ie_line {
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+}
+.link {
+  padding: 10px 10px;
+  padding-bottom: 50px;
+}
+.ie_line:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+.closetext {
+  clear: both;
+}
+.close {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  float: right;
+  line-height: 1;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 1.2;
+  margin-right: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.InsiderOtherCookies {
+  line-height: 1.4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  text-align: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #ffffff;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  z-index: 1000;
+}
+#container2 img {
+  width: 129px;
+  position: relative;
+  top: -20px;
+}
+#container2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#container3 .redeemed h3 {
+  color: #94305c !important;
+  font-size: 20px;
+  font-weight: 700 !important;
+}
+.free_emphasis {
+  background-color: #94305c;
+  color: white;
+  padding: 2px 4px;
+}
+/* #clockdiv div .timer-box {
+  width: 45px !important;
+} */
+#clockdiv div .timer-box {
+  color: #94305c;
+}
+#clockdiv div {
+  margin: 3px;
+}
+@media all and (max-width: 767px) {
+  .ie_popup {
+    width: 350px;
+    height: 550px;
+  }
+  #container {
+    width: 35%;
+    z-index: 0;
+  }
+  #container3 {
+    top: -40px;
+  }
+  .ie_img {
+    margin-top: -70px;
+    background-image: url("https://static.insiderenvy.com/images/images/Birchbox+PNG/Asset+1l+1.png");
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 40px;
+  }
+  #container2 img {
+    width: 100px;
+  }
+  .ie_sub {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 15px 1px;
+    font-weight: 400;
+  }
+  .redeemed h3 {
+    margin: 0;
+  }
+  .ie_pop_h {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 12px 0px;
+    width: 50%;
+    display: inline-block;
+  }
+  #clockdiv {
+    margin: 20px 0px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #clockdiv div .timer-box {
+    height: 75px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+  }
+  #clockdiv > div {
+    padding: 5px;
+  }
+  #clockdiv div > span {
+    padding: 5px;
+    font-size: 45px;
+  }
+  .smalltext {
+    font-size: 15px;
+    line-height: 14px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+  }
+  .cta_pop {
+    padding: 10px 10px;
+    bottom: 40px;
+  }
+  .get_started_pop {
+    font-size: 15px;
+    padding: 10px 15px;
+    min-width: 250px;
+    font-weight: 600;
+    line-height: 10px;
+  }
+  .ie_line {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .link {
+    position: relative;
+    bottom: 40px;
+  }
+}

@@ -1,0 +1,221 @@
+@font-face {
+  font-family: Centra No1;
+  src: url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Bold.otf")
+      format("opentype"),
+    url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra No1;
+  src: url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-BoldItalic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: CentraNo1-Book;
+  src: url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Book.otf")
+      format("opentype"),
+    url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Book.ttf")
+      format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Centra No1;
+  src: url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Light.otf")
+      format("opentype"),
+    url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Light.ttf")
+      format("truetype");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: Centra No1;
+  src: url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Medium.otf")
+      format("opentype"),
+    url("https://static.insiderenvy.com/wp-content/themes/betheme/fonts/CentraNo1-Medium.ttf")
+      format("truetype");
+  font-weight: 500;
+}
+
+.InsiderOtherCookies {
+  line-height: 1.4;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  text-align: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  z-index: 1000;
+}
+.ie_popup {
+  width: 700px;
+  height: 700px;
+  /* height: auto; */
+  margin: 0 auto;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 1px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: Centra No1;
+}
+
+.banner {
+  height: 45px;
+  width: 100%;
+  background: #ff6b2c;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coupon-text {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.exit {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: -7px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.logo {
+  background-image: url("https://static.insiderenvy.com/images/images/Tovala+popup/Tovala+Logo.png");
+  height: 30px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 10px;
+}
+
+.background-image {
+  background-image: url("https://static.insiderenvy.com/images/images/Tovala+popup/Background+Image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.content .info p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+  bottom: 20px;
+  font-weight: 700;
+}
+
+.content .info .info-big {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.content .info .info-small {
+  font-size: 18px;
+  position: relative;
+  top: -25px;
+}
+
+.content .percent-off p {
+  color: #ff6b2c;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.content .cta {
+  text-decoration: none;
+  background-color: #ff6b2c;
+  color: white;
+  width: 260px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 8px;
+  font-size: 18px;
+}
+
+@media all and (max-width: 767px) {
+  .ie_popup {
+    width: 360px;
+    flex-direction: column;
+    height: 550px;
+    padding: 0;
+    margin: 0;
+  }
+  .exit {
+    /* left: 86%; */
+    top: -2px;
+    font-size: 30px;
+  }
+  .background-image {
+    background-image: url("https://static.insiderenvy.com/images/images/Tovala+popup/Background+Image+(1).jpg");
+  }
+  .coupon-text {
+    font-size: 15px;
+  }
+  .content .percent-off p {
+    font-size: 70px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    height: 70px;
+    font-weight: 700;
+  }
+  .content .info .info-big {
+    font-size: 22px;
+  }
+  .content .info .info-small {
+    font-size: 15px;
+    line-height: 15px !important;
+    width: 70% !important;
+    margin: auto !important;
+  }
+  .content .cta {
+    font-size: 16px;
+  }
+}
